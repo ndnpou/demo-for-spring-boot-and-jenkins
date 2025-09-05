@@ -76,5 +76,10 @@ pipeline {
                 echo "Reached stage 10"
             }
         }
+        stage("Stage 11"){
+            steps{
+                echo "Now the pipeline is stored in version control in the Jenkinsfile on github"
+            }
+        }
     }
 }
